@@ -378,7 +378,65 @@ p {
     margin-top: 90px;
     margin-bottom: 250px;
 }
-
+.gallery{
+    background-image: url("../images/gallery.jpg");
+    background-repeat: no repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+.gallery-overlay{
+    background-color: rgba(31, 31, 31, 0.75);
+}
+.gallery h2{
+    color: white;
+}
+.gallery p{
+    color: white;
+}
+.btn-event,
+.btn-event:focus,
+.btn-event:active,
+.btn-event:visited {
+    color: #FFF;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    background: transparent;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+     -o-transition: all 1s;
+     border-color: #FFF;
+}
+.btn-event:hover {
+    color: #fff;
+    background-color: #129CF3;
+}
+.btn-kalakriti,
+.btn-kalakriti:focus,
+.btn-kalakriti:active,
+.btn-kalakriti:visited {
+    color: #FFF;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    background: transparent;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+     -o-transition: all 1s;
+      border-color: #FFF;
+}
+.btn-kalakriti:hover {
+    color: #FFF;
+    background-color: #129CF3;
+}
 
 /* ========= Contact Us ============= */
 .contact-us-form .form-control {
